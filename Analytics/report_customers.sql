@@ -1,3 +1,4 @@
+
 /*
 ===============================================================================
 Customer Report
@@ -38,12 +39,12 @@ SELECT
 f.order_number,
 f.product_key,
 f.order_date,
-f.sales_amount,
+f.sales,
 f.quantity,
 c.customer_key,
 c.customer_number,
 CONCAT(c.first_name, ' ', c.last_name) AS customer_name,
-DATEDIFF(year, c.birthdate, GETDATE()) age
+DATEDIFF(year, c.birth_date, GETDATE()) age
 FROM gold.fact_sales f
 LEFT JOIN gold.dim_customers c
 ON c.customer_key = f.customer_key
@@ -59,7 +60,7 @@ SELECT
 	customer_name,
 	age,
 	COUNT(DISTINCT order_number) AS total_orders,
-	SUM(sales_amount) AS total_sales,
+	SUM(sales) AS total_sales,
 	SUM(quantity) AS total_quantity,
 	COUNT(DISTINCT product_key) AS total_products,
 	MAX(order_date) AS last_order_date,
