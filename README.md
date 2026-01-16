@@ -71,7 +71,7 @@ Build a data warehouse using SQL Server that integrates data from multiple sourc
 
 ### 📂 SQL Server Data Warehouse Structure
 
-The image above shows the complete **SQL Server data warehouse implementation** created for this project.  
+The image below shows the complete **SQL Server data warehouse implementation** created for this project.  
 It includes:
 
 - **Bronze layer tables** for raw CRM and ERP data ingestion
