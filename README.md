@@ -1,71 +1,77 @@
-# Data Warehouse Project
+# 🏗️ Data Warehouse and Analytics Project
 
 Welcome to the **Data Warehouse Project** repository! 🚀  
 
-This is my **first data warehousing project**, built using **SQL Server**.  
-The project focuses on learning the **fundamentals of data warehousing**, including:
+This is my **first data warehousing project**, built using **SQL Server**. The goal of this project is to understand the fundamentals of **data warehousing and analytics** by designing a structured data warehouse and generating insights from it.
 
-- Designing warehouse tables  
-- Writing optimized SQL queries  
-- Implementing basic ETL processes  
-
-Through this project, I am learning how to organize data using a **layered architecture (Bronze → Silver → Gold)** and prepare it for **reporting and analysis**.
-
-
----
-## 🏗️ Data Architecture
-
-1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
-2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
-3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
-
----
-## 📖 Project Overview
-
-This project involves:
-
-1. **Data Architecture**: Designing a Modern Data Warehouse Using Medallion Architecture **Bronze**, **Silver**, and **Gold** layers.
-2. **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse.
-3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
-
-🎯 This repository is an excellent resource for professionals and students looking to showcase expertise in:
-- SQL Development
-- Data Architect
-- Data Engineering  
-- ETL Pipeline Developer  
-- Data Modeling  
-
+In this project, I have built a complete data warehouse and **created analytical outputs for customers and products** to support reporting and business analysis.
 
 ---
 
-## 🛠️ Important Links & Tools:
+## 🏛️ Data Architecture
 
-Everything is for Free!
-- **[Datasets](datasets/):** Access to the project dataset (csv files).
-- **[SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads):** Lightweight server for hosting your SQL database.
-- **[SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16):** GUI for managing and interacting with databases.
-- **[Git Repository](https://github.com/):** Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
+The project follows a **layered (Medallion) architecture**:
+
+1. **Bronze Layer**  
+   Stores raw data ingested from source systems (CSV files) into SQL Server without modification.
+
+2. **Silver Layer**  
+   Performs data cleansing, standardization, and transformation to ensure data quality and consistency.
+
+3. **Gold Layer**  
+   Contains analytics-ready data modeled using **fact and dimension tables**, which are used for **customer and product analytics**.
+
+---
+
+## 📊 Analytics Overview
+
+Using the **Gold layer**, I have created analytics focused on:
+
+- Customer analysis (customer details, demographics, and activity)
+- Product analysis (product categories, pricing, and sales behavior)
+
+These analytics help demonstrate how warehouse data can be transformed into meaningful business insights.
+
+---
+
+## 📖 Project Scope
+
+This project covers:
+
+- Designing a modern **SQL Server data warehouse**
+- Building **ETL pipelines** to load and transform data
+- Creating **fact and dimension tables** for analytics
+- Developing **customer and product analytics** from the Gold layer
+
+---
+
+## 🛠️ Tools & Technologies
+
+- **SQL Server**
+- **SQL Server Management Studio (SSMS)**
+- **T-SQL**
+- **CSV datasets (ERP & CRM sources)**
+- **Git & GitHub** for version control
 
 ---
 
 ## 🚀 Project Requirements
 
-### Building the Data Warehouse (Data Engineering)
+### Objective
+Build a data warehouse using SQL Server that integrates data from multiple sources and supports **analytics on customers and products**.
 
-#### Objective
-Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
-
-#### Specifications
-- **Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.
-- **Data Quality**: Cleanse and resolve data quality issues prior to analysis.
-- **Integration**: Combine both sources into a single, user-friendly data model designed for analytical queries.
-- **Scope**: Focus on the latest dataset only; historization of data is not required.
-- **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
+### Key Features
+- Data ingestion from ERP and CRM CSV files
+- Data cleansing and validation
+- Integration into a single analytical model
+- Focus on current data (no historization)
+- Clear documentation of data models and analytics
 
 ---
 
-
 ## 🌟 About Me
 
-Hi, I’m Khana Patro.
-I am learning Data Engineering and building my first data warehouse projects using SQL Server. I am focused on improving my skills in SQL, data modeling, and ETL by working on real-world practice projects.
+Hi, I’m **Khana Patro**.  
+I am learning **Data Engineering** and building my first **data warehouse projects using SQL Server**. Through this project, I am gaining hands-on experience in **SQL, ETL processes, data modeling**, and **creating analytics for customers and products**.
+
+
