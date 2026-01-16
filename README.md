@@ -47,11 +47,11 @@ This project covers:
 
 ## 🛠️ Tools & Technologies
 
-- **SQL Server**
-- **SQL Server Management Studio (SSMS)**
-- **T-SQL**
-- **CSV datasets (ERP & CRM sources)**
-- **Git & GitHub** for version control
+Everything is for Free! 
+- **[Datasets](datasets/):** Access to the project dataset (csv files). 
+- **[SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads):** Lightweight server for hosting your SQL database.
+- **[SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16):** GUI for managing and interacting with databases.
+- **[Git Repository](https://github.com/):** Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
 
 ---
 
@@ -69,9 +69,23 @@ Build a data warehouse using SQL Server that integrates data from multiple sourc
 
 ---
 
+### 📂 SQL Server Data Warehouse Structure
+
+The image above shows the complete **SQL Server data warehouse implementation** created for this project.  
+It includes:
+
+- **Bronze layer tables** for raw CRM and ERP data ingestion
+- **Silver layer tables** for cleansed and standardized data
+- **Gold layer views** with dimension and fact tables
+- **Analytics views** for customer and product reporting
+
+This structure demonstrates an end-to-end data warehousing workflow implemented using **SQL Server and T-SQL**.
+
+
+<img width="1919" height="990" alt="image" src="https://github.com/user-attachments/assets/a83b560f-b81f-4d79-acfa-960c665a407d" />
+
+
 ## 🌟 About Me
 
 Hi, I’m **Khana Patro**.  
 I am learning **Data Engineering** and building my first **data warehouse projects using SQL Server**. Through this project, I am gaining hands-on experience in **SQL, ETL processes, data modeling**, and **creating analytics for customers and products**.
-
-
